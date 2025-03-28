@@ -148,7 +148,7 @@ while running:
     
     # 绘制游戏元素
     all_sprites.draw(screen)
-    pygame.draw.rect(screen, WHITE, button_rect)
+    # pygame.draw.rect(screen, WHITE, button_rect)
     
     # 双缓冲刷新
     pygame.display.flip()
